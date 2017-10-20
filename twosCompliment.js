@@ -5,6 +5,9 @@ var toBinary = function toBinary(num){
 
 var numbers = [23, 14, -18, 91, 20]
 
-numbers.forEach(function(num){
-	console.log('Number: ',num,'Binary: ',toBinary(num))
-})
+// numbers.forEach(function(num){
+// 	console.log('Number: ',num,'Binary: ',toBinary(num))
+// })
+
+module.exports = toBinary;
+//export default toBinary;
