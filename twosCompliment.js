@@ -1,4 +1,4 @@
-var toBinary = function toBinary(num){
+var toBinary = function(num){
 	num = parseInt(num);
 	return (-num >>> 0).toString(2);
 }
