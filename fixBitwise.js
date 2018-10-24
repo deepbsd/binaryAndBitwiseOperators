@@ -30,6 +30,6 @@ let fixBitwise = function(num, bit, operation) {
 
 num = 514
 binary = num.toString(2)
-bit = 9
+bit = 15
 
 console.log( 'NUM: ',num,'BIN: ', binary, ' STATUS: ', fixBitwise(num, bit, 'toggle'), ' MASK: ',(num << (bit-1)).toString(2)  )
