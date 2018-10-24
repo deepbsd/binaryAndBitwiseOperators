@@ -18,6 +18,7 @@ function bitwise(n1, n2, arg){
 	}
 }
 
+//console.log("Answer: ", bitwise(1,2,'and'),'  ',bitwise(1,2,'or') )
 
 
 module.exports = bitwise;
