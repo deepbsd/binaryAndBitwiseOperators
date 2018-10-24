@@ -28,5 +28,7 @@ let fixBitwise = function(num, bit, operation) {
 
 }
 
+num = (514).toString(2)
+bit = 5
 
-console.log( 'NUM: ', fixBitwise(514, 5, 'toggle')  )
+console.log( 'NUM: ', num, ' STATUS: ', fixBitwise(num, 5, ''), ' MASK: ',(num << (bit-1)).toString(2)  )
