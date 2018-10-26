@@ -1,6 +1,6 @@
 var toBinary = function(num){
 	num = parseInt(num);
-	return (-num >>> 0).toString(2);
+	return (num >>> 0).toString(2);
 }
 
 var numbers = [23, 14, -18, 91, 20]
